@@ -1,10 +1,3 @@
-.cards {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
 .navbar {
     align-items: center;
     border-bottom: 1px solid rgb(221, 221, 221);
@@ -52,4 +45,19 @@ h1 {
 
 h2 {
     color: rgb(132, 0, 255);
+}
+
+.App {
+    max-width: 1000px;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.cards {
+    border: 10px solid rgba(21, 84, 200, 0.753);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1rem;
+    margin: 0 auto;
 }

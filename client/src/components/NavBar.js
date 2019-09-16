@@ -1,6 +1,8 @@
 import React from "react";
 import { useDarkMode } from "./useDarkMode";
 
+//below we are creating an event toggle that will modify state to be the opposite of whatever is currently the state
+//below we are returning the top navbar for our app including a div that will be a toggle that uses a terniary to toggle the toggle
 const Navbar = () => {
   const [darkMode, setDarkMode] = useDarkMode(false);
   const toggleMode = e => {

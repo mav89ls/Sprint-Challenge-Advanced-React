@@ -3,6 +3,8 @@ import PlayerCard from "./components/PlayerCard";
 import Navbar from "./components/NavBar";
 import "./App.css";
 
+//belowe we are creating a class component that will hold state in an array called data. we will use the lifecycle method component did mount to fetch the data from that API. then pass in that information through props into the other components.
+
 class App extends React.Component {
   constructor() {
     super();
@@ -20,8 +22,8 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
-        <div className="App">
+      <div className="App">
+        <div>
           <Navbar />
         </div>
         <div className="cards">
